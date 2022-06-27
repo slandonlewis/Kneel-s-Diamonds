@@ -5,7 +5,7 @@ const styles = getStyles()
 document.addEventListener(
     "change",
     (event) => {
-        if (event.target.name === "size") {
+        if (event.target.name === "style") {
             setStyle(parseInt(event.target.value))
         }
     }
